@@ -47,12 +47,12 @@
 .icon-cart:before {
   content: "\63";
 }
-.icon-emote-love:before {
-  content: "\64";
-}
 .icon-hearth:before {
   content: "\65";
 }
 .icon-star:before {
   content: "\66";
+}
+.icon-apple:before {
+  content: "\64";
 }
