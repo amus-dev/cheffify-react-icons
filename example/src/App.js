@@ -1,10 +1,13 @@
 import React from 'react'
-
-import { ExampleComponent } from 'cheffify-react-icons'
+import Icon from 'cheffify-react-icons'
 import 'cheffify-react-icons/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <>
+      <Icon name='bell' color='red' size={20} />
+    </>
+  )
 }
 
 export default App

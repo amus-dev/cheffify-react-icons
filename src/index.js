@@ -1,6 +1,16 @@
 import React from 'react'
-import styles from './styles.module.css'
+import './styles.css'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
+const Icon = (props) => {
+  const { name, color, size } = props
+  const converPX = size / 16
+  return (
+    <i
+      aria-hidden='true'
+      className={`icon icon-${name}`}
+      style={{ color: color, fontSize: `${converPX}rem` }}
+    />
+  )
 }
+
+export default Icon
