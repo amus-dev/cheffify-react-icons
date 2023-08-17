@@ -5,7 +5,7 @@ import 'cheffify-react-icons/dist/index.css'
 const App = () => {
   return (
     <>
-      <Icon name='bell' color='red' size={20} />
+      <Icon name='congelados' color='red' size={20} />
     </>
   )
 }
